@@ -1,0 +1,72 @@
+---
+title: "Lab 5 - Flights of New York"
+author: "Your name"
+date: "Date of lab session"
+output:
+  html_document:
+    fig_height: 4
+    highlight: tango
+    self_contained: yes
+    number_sections: no
+    smart: yes
+    theme: paper
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+# Set knitr options
+knitr::opts_chunk$set(echo = TRUE)
+# Check if nycflights13 is installed
+source("check_nycflights13.R")
+# Load required packages
+suppressPackageStartupMessages(library(tidyverse, quietly = TRUE))
+suppressPackageStartupMessages(library(lubridate, quietly = TRUE))
+suppressPackageStartupMessages(library(nycflights13, quietly = TRUE))
+# Load dataset
+flights_dt <- read_rds("flights_dt.rds")
+```
+
+* * *
+
+## Lab report
+
+## Exercises
+
+#### Exercise 1
+
+
+
+#### Exercise 2
+
+
+
+#### Exercise 3
+
+
+
+#### Exercise 4
+
+
+
+#### Exercise 5
+
+
+
+#### Exercise 6
+
+
+
+#### Exercise 7
+
+
+
+## Additional questions
+
+#### Question 1
+
+
+
+#### Question 2
+
+
+
